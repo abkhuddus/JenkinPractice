@@ -17,7 +17,7 @@ public class DemoApplication {
 	@PostConstruct
 	public void initt() {
 		
-		logger.info("Application is Started");
+		logger.info("Application is Started Successfully");
 	}
 	
 	public static void main(String[] args) {
