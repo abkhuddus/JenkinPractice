@@ -1,5 +1,7 @@
 package com.example.demo;
 
+import static org.junit.Assert.assertTrue;
+
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
@@ -17,7 +19,7 @@ class DemoApplicationTest {
 
 	@Test
 	public void contextLoad() {
-		Assert.assertSame(true,true);
+		assertTrue(true);
 	}
 
 }
