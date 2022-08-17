@@ -17,7 +17,7 @@ public class DemoApplication {
 	@PostConstruct
 	public void initt() {
 		
-		logger.info("Application is Started Successfully");
+		logger.info("Application is Started Successfully Modifed for pipeline in jenkins");
 	}
 	
 	public static void main(String[] args) {
