@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.DemoApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.769 s <<< FAILURE! - in com.example.demo.DemoApplicationTest
+contextLoads  Time elapsed: 0.674 s  <<< ERROR!
+java.lang.NoClassDefFoundError: org/junit/Assert
+	at com.example.demo.DemoApplicationTest.contextLoads(DemoApplicationTest.java:24)
+Caused by: java.lang.ClassNotFoundException: org.junit.Assert
+	at com.example.demo.DemoApplicationTest.contextLoads(DemoApplicationTest.java:24)
+
